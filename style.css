@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/fonts/CustomFont.woff2') format('woff2'),
+         url('assets/fonts/CustomFont.woff') format('woff');
+}
+body{
+     padding: 10px 25px;
+     font-family: sans-serif;
+}
+h1,h3{
+
+font-family: 'CustomFont';
+
+}
+
+img{
+    width: 98%;
+    height: 30%;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+h1{
+    margin: 15px 10px;
+}
+
+p,li{
+    color:  hsl(30, 10%, 34%);
+}
+h2,h4{
+    color: hsl(14, 45%, 36%);
+}
+span{
+    font-weight: bold;
+}
+.desc{
+ margin: 5px 10px;
+}
+div{
+    background-color:  hsl(330, 100%, 98%);
+    padding: 10px 5px;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+div h4{
+    color:  hsl(14, 45%, 36%);
+    padding: 10px;
+}
+div li {
+    margin-left: 25px;
+    /* padding-left: 10px; */
+    padding: 7px 10px;
+}
+li{
+        margin-left: 25px;
+    /* padding-left: 10px; */
+    /* padding: 7px 10px; */
+}
+.ing{
+    
+    padding: 10px;
+}
+.ing-ul li{
+    margin-left: 25px;
+    padding-left: 10px;
+    padding: 7px 10px;
+}
+ins{
+        padding: 15px
+}
+ol li{
+ 
+    margin-left: 25px;
+    padding-left: 10px;
+    padding: 7px 10px;
+}
+.nut{
+    padding: 15px;
+}
+.nut-p{
+    padding: 5px;
+}
+table{
+    width: 100%;
+}
+tr{
+    color: hsl(14, 45%, 36%);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 15px 0;
+}
+td{
+    display: block;
+    width: 50%;
+    margin: 5px 0;
+}
+.gray{
+    color:  hsl(30, 10%, 34%);
+}
+
+hr{
+    margin: 15px;
+}
